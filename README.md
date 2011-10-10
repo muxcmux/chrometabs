@@ -16,9 +16,9 @@ In order for Chrometabs to work, you will need a similar HTML structure:
       
       <nav>
         <ul>
-          <li><a href=""><span>Tab 1</span></a></li>
-          <li><a href=""><span>Tab 2</span></a></li>
-          <li><a href=""><span>Tab 3</span></a></li>
+          <li><a href="#"><span>Tab 1</span></a></li>
+          <li><a href="#"><span>Tab 2</span></a></li>
+          <li><a href="#"><span>Tab 3</span></a></li>
         </ul>
       </nav>
       
