@@ -1,7 +1,6 @@
 (function($) {
 
   var settings = {
-    baseZ: 0,
     hoverClass: 'hover',
     activeClass: 'active',
     selectedClass: 'selected',
@@ -27,7 +26,7 @@
         
         // reverse z-index order and set index data
         for (i = 0; i < tabcount; i++) {
-          var index = settings.baseZ + (tabcount - i);
+          var index = tabcount - i;
           tabs.children('li:eq(' + i + ')').css('z-index', index).data('index', index);
           // set div index data
           instance.children('div:eq(' + i + ')').data('index', index);
