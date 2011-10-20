@@ -1,4 +1,4 @@
-Use Chrometabs to easily add Chrome-like (yes, the browser) tabbed interfaces in you web apps.
+Chrometabs is a jQuery plugin that allows you to easily add Chrome-like (yes, the browser) tabbed interfaces in you web apps.
 
 ## Usage
 Simply call the `chrometabs` jQuery function on the container you want to add tabs to:
